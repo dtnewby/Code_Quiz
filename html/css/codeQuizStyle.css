@@ -1,0 +1,17 @@
+P { 
+    font-weight: normal;
+    text-align: left;
+}
+
+H1 { 
+    font-weight: bold;
+    text-align: left;
+}
+
+div {
+    text-align: left;
+}
+
+.bolded {
+    font-weight: bold;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <HEAD>
+        <META charset="UTF-8" />
+        <META name="javascript quiz" content="quiz on javascript" />
+        <META name="Todd Newby" content="author" />
+        <TITLE>JavaScript Quiz - Save Score</TITLE>
+        <LINK rel="stylesheet" href="./css/codeQuizStyle.css" />
+    </HEAD>
+    <BODY onload="populateScore()">
+        <h1>All done!</h1>
+        <P>
+            Your score is: <div id="score" class="bolded"></div>
+        </P>
+
+        <LABEL for="initials">Enter Initials:&nbsp;</LABEL><input type="text" id="initials" name="initials"><br>
+        <br>
+        <button type="button" id="submitInitials">Submit</button>
+        
+        <SCRIPT src="./js/codeQuizSaveScore.js"></SCRIPT>
+    </BODY>
+</HTML>
