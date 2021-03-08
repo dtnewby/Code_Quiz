@@ -10,7 +10,15 @@ function populateScore()
 function saveScore()
 {
     var initials = document.getElementById("initials");
-    localStorage.setItem(initials, totalScore);
+    var initialsStr = "" + initials.value;
+
+    if (initialsStr.length < 1)
+    {
+        alert("Please enter your initials.");
+        return;
+    }
+
+    localStorage.setItem(initialsStr, totalScore);
 
     setTimeout(function() { window.location.href = "codeQuizDisplayHighScores.html"; }, 1000);   
 }
