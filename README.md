@@ -8,7 +8,7 @@ to the user.  The quiz ends after either the user answers all of the questions o
 After the quiz has ended, the number of questions the user answered correctly is displayed.  The user has the option of entering his or her name.  This name is added to the list of high scores if his or her score qualifies.
 
 # Screenshot
-![Screenshot of my Code Quiz](https://dtnewby.github.io/Code_Quiz/images/screenshot.PNG)
+![Screenshot of my Code Quiz](https://dtnewby.github.io/Code_Quiz/screenshot.PNG)
 
 # Link to Deployed Application
 https://dtnewby.github.io/Code_Quiz/html/codeQuizStartPage.html
